@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | B.Sc. in Computer Science and Engineering</title>
+  <meta name="description" content="Computer Science student portfolio with results, projects, coding profiles and CV." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-icon">&lt;/&gt;</span>
+      <span>My Portfolio</span>
+    </div>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="cv-btn" href="assets/cv.pdf" download>Download CV</a>
+
+    <div class="sidebar-socials">
+      <a href="https://github.com/Abdur-r1" target="_blank" rel="noopener">GH</a>
+      <a href="https://www.linkedin.com/in/md-abdur-rahaman-bb76b9263" target="_blank" rel="noopener">IN</a>
+      <a href="mailto:youremail@example.com">@</a>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <section id="home" class="hero card">
+      <div class="profile-wrap">
+        <img src="assets/profile.png" alt="Profile photo" class="profile-img" />
+      </div>
+      <div class="hero-text">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Abdur Rahaman</h1>
+        <h2>B.Sc. in Computer Science and Engineering</h2>
+        <p>
+          Passionate about problem solving, competitive programming and building
+          impactful web applications.
+        </p>
+        <div class="hero-actions">
+          <a href="https://github.com/Abdur-r1" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://codeforces.com/profile/abdurrahaman01" target="_blank" rel="noopener">Codeforces</a>
+          <a href="assets/cv.pdf" download>CV</a>
+          <a href="mailto:youremail@example.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-grid" aria-label="Portfolio stats">
+      <article class="stat-card card">
+        <span class="stat-icon">🏆</span>
+        <div>
+          <strong>1500+</strong>
+          <p>Codeforces Rating</p>
+          <small>Pupil</small>
+        </div>
+      </article>
+      <article class="stat-card card">
+        <span class="stat-icon">📊</span>
+        <div>
+          <strong>1900+</strong>
+          <p>GeeksforGeeks Score</p>
+          <small>Problem Solver</small>
+        </div>
+      </article>
+      <article class="stat-card card">
+        <span class="stat-icon">💼</span>
+        <div>
+          <strong>15+</strong>
+          <p>Projects Completed</p>
+          <small>Web & DSA</small>
+        </div>
+      </article>
+      <article class="stat-card card">
+        <span class="stat-icon">⭐</span>
+        <div>
+          <strong>5★</strong>
+          <p>LeetCode Rating</p>
+          <small>Max Rating</small>
+        </div>
+      </article>
+    </section>
+
+    <section class="content-grid">
+      <article id="education" class="card panel">
+        <h3>Results / Education</h3>
+        <div class="list-card">
+          <strong>SSC / 10th</strong>
+          <span>SSC Completed | 2016</span>
+        </div>
+        <div class="list-card">
+          <strong>HSC / 12th</strong>
+          <span>HSC Completed | 2020</span>
+        </div>
+        <div class="list-card">
+          <strong>BSc in CSE</strong>
+          <span>B.Sc. in Computer Science and Engineering | 2025</span>
+        </div>
+      </article>
+
+      <article class="card panel">
+        <h3>Connected Profiles</h3>
+        <a class="profile-link" href="https://github.com/Abdur-r1" target="_blank" rel="noopener">
+          <span>GitHub</span><small>github.com/Abdur-r1</small>
+        </a>
+        <a class="profile-link" href="https://codeforces.com/profile/abdurrahaman01" target="_blank" rel="noopener">
+          <span>Codeforces</span><small>codeforces.com/profile/abdurrahaman01</small>
+        </a>
+        <a class="profile-link" href="https://leetcode.com/u/rahaman1/" target="_blank" rel="noopener">
+          <span>LeetCode</span><small>leetcode.com/u/rahaman1</small>
+        </a>
+        <a class="profile-link" href="https://www.linkedin.com/in/md-abdur-rahaman-bb76b9263" target="_blank" rel="noopener">
+          <span>LinkedIn</span><small>linkedin.com/in/md-abdur-rahaman-bb76b9263</small>
+        </a>
+      </article>
+
+      <article id="about" class="card panel about-panel">
+        <h3>About Me</h3>
+        <p>
+          I am a Computer Science student with a strong interest in Data Structures,
+          Algorithms, Web Development and Competitive Programming. I love learning
+          new technologies and solving real-life problems through code.
+        </p>
+        <a class="primary-btn" href="assets/cv.pdf" download>Download My CV</a>
+      </article>
+    </section>
+
+    <section id="skills" class="card section-panel">
+      <h3>Skills</h3>
+      <div class="tags">
+        <span>C</span><span>C++</span><span>Java</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>DSA</span><span>Git & GitHub</span>
+      </div>
+    </section>
+
+    <section id="projects" class="card section-panel">
+      <h3>Projects</h3>
+      <div class="project-grid">
+        <article class="project-card">
+          <h4>Portfolio Website</h4>
+          <p>A responsive personal portfolio website using HTML, CSS and JavaScript.</p>
+          <a href="https://github.com/Abdur-r1/portfolio" target="_blank" rel="noopener">View Code</a>
+        </article>
+        <article class="project-card">
+          <h4>Student Result System</h4>
+          <p>A simple result management system for storing and showing student results.</p>
+          <a href="#" target="_blank" rel="noopener">View Project</a>
+        </article>
+        <article class="project-card">
+          <h4>DSA Practice Tracker</h4>
+          <p>A tracker for solved problems from Codeforces, LeetCode and GFG.</p>
+          <a href="#" target="_blank" rel="noopener">View Project</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="achievements" class="card section-panel">
+      <h3>Achievements</h3>
+      <ul class="achievement-list">
+        <li>Solved 500+ programming problems across online judges.</li>
+        <li>Participated in multiple programming contests.</li>
+        <li>Built 15+ academic and personal projects.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card section-panel">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:youremail@example.com">mabdurrahaman7@gmail.com
+      <p>Phone: +880 1850222166</p>
+      <p>Location: Bangladesh</p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Abdur Rahaman. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
